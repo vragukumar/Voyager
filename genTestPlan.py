@@ -5,7 +5,7 @@ class testPlanDoc (object):
         self.info = info
 
     def generateDoc (self, fd):
-        fd.writelines('**' + ''.join(self.info['description'])+ '**')
+        fd.writelines('**' + ''.join(self.info['description']).lstrip()+ '**')
         fd.writelines('\n\n')
         fd.writelines('- **Test Steps**\n\n')
         for line in self.info['steps']:
