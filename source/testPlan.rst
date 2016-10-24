@@ -1,12 +1,9 @@
-Test Cases 
+Test Plan 
 ==========
 
-**Validate that inventory information of various subsytems can be read**
+.. toctree::
+   :maxdepth: 1
 
-- **Test Steps**
-
-- **Expected Result**
-
-- **Result**
-    Pass 
+   Test Setup <setup>
+   Test Cases <testPlan2>
 
