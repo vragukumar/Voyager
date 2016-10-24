@@ -22,7 +22,7 @@ Voyager Software Documentation
 
    Software Design  <design>
    API Reference Document    <apis>
-   Test Plan   <testPlan2>
+   Test Plan   <testPlan>
 
 
 Indices and tables
