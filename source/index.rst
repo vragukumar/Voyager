@@ -20,9 +20,9 @@ Voyager Software Documentation
 .. toctree::
    :maxdepth: 1
 
-   Software Design  <design>
-   API Reference Document    <apis>
-   Test Plan   <testPlan>
+   Software Design <design>
+   API Reference Document <apis>
+   Test Plan <testPlan>
 
 
 Indices and tables
