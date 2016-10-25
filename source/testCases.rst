@@ -7,7 +7,8 @@ Test Cases
 Test Case : 1
 -------------
 
- Validate that state and configuration can be queried for all Network Interfaces
+**Validate that state and configuration can be queried for all Network Interfaces**
+
 .. list-table:: 
     :header-rows: 1
 
@@ -26,7 +27,8 @@ Test Case : 1
 Test Case : 2
 -------------
 
- Validate that inventory information of the AC400 optical module can be read
+**Validate that inventory information of the AC400 optical module can be read**
+
 .. list-table:: 
     :header-rows: 1
 
@@ -47,7 +49,8 @@ Test Case : 2
 Test Case : 3
 -------------
 
- Validate that inventory information of the Tomahawk ASIC can be read
+**Validate that inventory information of the Tomahawk ASIC can be read**
+
 .. list-table:: 
     :header-rows: 1
 
@@ -67,7 +70,8 @@ Test Case : 3
 Test Case : 4
 -------------
 
- Validate that the transponder can be configured to be in InServiceWire/InServiceOversub/InServiceRegen/PacketOptical/OutOfService modes
+**Validate that the transponder can be configured to be in InServiceWire/InServiceOversub/InServiceRegen/PacketOptical/OutOfService modes**
+
 .. list-table:: 
     :header-rows: 1
 
@@ -96,7 +100,8 @@ Test Case : 4
 Test Case : 5
 -------------
 
- Validate asic configuration when transponder is in InServiceWire mode 
+**Validate asic configuration when transponder is in InServiceWire mode**
+
 .. list-table:: 
     :header-rows: 1
 
@@ -122,7 +127,8 @@ Test Case : 5
 Test Case : 6
 -------------
 
- Validate asic configuration when transponder is in InServiceOverSub mode 
+**Validate asic configuration when transponder is in InServiceOverSub mode**
+
 .. list-table:: 
     :header-rows: 1
 
@@ -152,7 +158,8 @@ Test Case : 6
 Test Case : 7
 -------------
 
- Validate AC400 automatic turn up
+**Validate AC400 automatic turn up**
+
 .. list-table:: 
     :header-rows: 1
 
@@ -170,7 +177,8 @@ Test Case : 7
 Test Case : 8
 -------------
 
- Validate AC400 automatic turn down 
+**Validate AC400 automatic turn down**
+
 .. list-table:: 
     :header-rows: 1
 
@@ -188,7 +196,8 @@ Test Case : 8
 Test Case : 9
 -------------
 
- Validate asic configuration when transponder is in OutOfService mode 
+**Validate asic configuration when transponder is in OutOfService mode**
+
 .. list-table:: 
     :header-rows: 1
 
@@ -207,7 +216,8 @@ Test Case : 9
 Test Case : 10
 --------------
 
- Validate Xponder description can be set
+**Validate Xponder description can be set**
+
 .. list-table:: 
     :header-rows: 1
 
@@ -226,7 +236,8 @@ Test Case : 10
 Test Case : 11
 --------------
 
- Validate Tx power can be set on AC400 network interfaces
+**Validate Tx power can be set on AC400 network interfaces**
+
 .. list-table:: 
     :header-rows: 1
 
@@ -247,7 +258,8 @@ Test Case : 11
 Test Case : 12
 --------------
 
- Validate Tx channel number can be set on AC400 network interfaces
+**Validate Tx channel number can be set on AC400 network interfaces**
+
 .. list-table:: 
     :header-rows: 1
 
@@ -269,7 +281,8 @@ Test Case : 12
 Test Case : 13
 --------------
 
- Validate modulation format can be modified on AC400 network interfaces
+**Validate modulation format can be modified on AC400 network interfaces**
+
 .. list-table:: 
     :header-rows: 1
 
@@ -291,7 +304,8 @@ Test Case : 13
 Test Case : 14
 --------------
 
- Validate FEC mode can be modified on AC400 network interfaces
+**Validate FEC mode can be modified on AC400 network interfaces**
+
 .. list-table:: 
     :header-rows: 1
 
@@ -313,7 +327,8 @@ Test Case : 14
 Test Case : 15
 --------------
 
- Validate that differential encoding setting can be modified on AC400 network interfaces
+**Validate that differential encoding setting can be modified on AC400 network interfaces**
+
 .. list-table:: 
     :header-rows: 1
 
@@ -335,7 +350,8 @@ Test Case : 15
 Test Case : 16
 --------------
 
- Validate that PM data can be read for BER on AC400 network interfaces
+**Validate that PM data can be read for BER on AC400 network interfaces**
+
 .. list-table:: 
     :header-rows: 1
 
@@ -356,7 +372,8 @@ Test Case : 16
 Test Case : 17
 --------------
 
- Validate that state and configuration can be queried for all Client Interfaces
+**Validate that state and configuration can be queried for all Client Interfaces**
+
 .. list-table:: 
     :header-rows: 1
 
@@ -375,7 +392,8 @@ Test Case : 17
 Test Case : 18
 --------------
 
- Validate host electrical parameters can be configured for each client interface 
+**Validate host electrical parameters can be configured for each client interface**
+
 .. list-table:: 
     :header-rows: 1
 
@@ -396,7 +414,8 @@ Test Case : 18
 Test Case : 19
 --------------
 
- Validate switching ASIC related events are generated in the Voyager system 
+**Validate switching ASIC related events are generated in the Voyager system**
+
 .. list-table:: 
     :header-rows: 1
 
@@ -417,7 +436,8 @@ Test Case : 19
 Test Case : 20
 --------------
 
- Validate AC400 related alarm resolution in the Voyager system 
+**Validate AC400 related alarm resolution in the Voyager system**
+
 .. list-table:: 
     :header-rows: 1
 
@@ -439,7 +459,8 @@ Test Case : 20
 Test Case : 21
 --------------
 
- Validate AC400 related events are generated in the Voyager system 
+**Validate AC400 related events are generated in the Voyager system**
+
 .. list-table:: 
     :header-rows: 1
 
@@ -460,7 +481,8 @@ Test Case : 21
 Test Case : 22
 --------------
 
- Validate switching ASIC related faults are generated in the Voyager system 
+**Validate switching ASIC related faults are generated in the Voyager system**
+
 .. list-table:: 
     :header-rows: 1
 
@@ -482,7 +504,8 @@ Test Case : 22
 Test Case : 23
 --------------
 
- Validate AC400 related faults are generated in the Voyager system 
+**Validate AC400 related faults are generated in the Voyager system**
+
 .. list-table:: 
     :header-rows: 1
 
@@ -503,7 +526,8 @@ Test Case : 23
 Test Case : 24
 --------------
 
- Validate switching ASIC related alarms are generated in the Voyager system 
+**Validate switching ASIC related alarms are generated in the Voyager system**
+
 .. list-table:: 
     :header-rows: 1
 
@@ -525,7 +549,8 @@ Test Case : 24
 Test Case : 25
 --------------
 
- Validate AC400 related alarms are generated in the Voyager system 
+**Validate AC400 related alarms are generated in the Voyager system**
+
 .. list-table:: 
     :header-rows: 1
 
@@ -546,7 +571,8 @@ Test Case : 25
 Test Case : 26
 --------------
 
- Validate switching ASIC related fault resolution in the Voyager system 
+**Validate switching ASIC related fault resolution in the Voyager system**
+
 .. list-table:: 
     :header-rows: 1
 
@@ -569,7 +595,8 @@ Test Case : 26
 Test Case : 27
 --------------
 
- Validate AC400 related fault resolution in the Voyager system 
+**Validate AC400 related fault resolution in the Voyager system**
+
 .. list-table:: 
     :header-rows: 1
 
@@ -591,7 +618,8 @@ Test Case : 27
 Test Case : 28
 --------------
 
- Validate switching ASIC related alarm resolution in the Voyager system 
+**Validate switching ASIC related alarm resolution in the Voyager system**
+
 .. list-table:: 
     :header-rows: 1
 
@@ -614,7 +642,8 @@ Test Case : 28
 Test Case : 29
 --------------
 
- Validate end to end data path connectivity 
+**Validate end to end data path connectivity**
+
 .. list-table:: 
     :header-rows: 1
 

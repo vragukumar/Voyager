@@ -10,7 +10,9 @@ class testPlanDoc (object):
         doc.add_child(para)
         sec = rst.Section('Test Case : ' + str(self.info['index']), 2)
         doc.add_child(sec)
-        para = rst.Paragraph(self.info['description'][0] + '\n')
+        desc = self.info['description'][0].lstrip()
+        desc = desc.rstrip()
+        para = rst.Paragraph('**' + desc + '**\n\n')
         doc.add_child(para)
         tbl = rst.Table(header = ['Test Execution Steps'])
         for line in self.info['steps']:
