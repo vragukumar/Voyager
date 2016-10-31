@@ -3,10 +3,12 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Voyager Software Documentation
-==============================
+Voyager Software 
+=================
 
-      **Voyager Software is a customized form of FlexSwitch:**
+      **Voyager devices run FlexSwitch software as Network Operating System**
+
+      **FlexSwitch is a flagship product of Snaproute**
 
       **FlexSwitch offers the following :**
 
@@ -20,9 +22,10 @@ Voyager Software Documentation
 .. toctree::
    :maxdepth: 1
 
+   Download Instructions <download>
    Software Design  <design>
    API Reference Document    <apis>
-   Test Plan   <testPlan>
+   Test Plan and Results <testPlan>
 
 
 Indices and tables
