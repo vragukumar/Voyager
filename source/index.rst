@@ -23,9 +23,9 @@ Voyager Software
    :maxdepth: 1
 
    Download Instructions <download>
-   Software Design  <design>
-   API Reference Document    <apis>
-   Test Plan and Results <testPlan>
+   Software Design <design>
+   API Reference Document <apis>
+   Test Plan <testPlan>
 
 
 Indices and tables
