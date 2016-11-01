@@ -31,8 +31,7 @@
 
   
     <link rel="top" title="Voyager 1.0.1 documentation" href="index.html"/>
-        <link rel="next" title="Voyager Test Setup" href="testSetup.html"/>
-        <link rel="prev" title="FlexSwitch API Documentation" href="apis.html"/> 
+        <link rel="prev" title="FlexSwitch for Voyager Software design" href="design.html"/> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -84,11 +83,42 @@
                 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="download.html">Download Instructions</a></li>
 <li class="toctree-l1"><a class="reference internal" href="design.html">Software Design</a></li>
-<li class="toctree-l1"><a class="reference internal" href="apis.html">API Reference Document</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://opensnaproute.github.io/apidocs">API Reference Document</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Test Plan</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="testSetup.html">Test Setup</a></li>
-<li class="toctree-l2"><a class="reference internal" href="testCases.html">Test Cases</a></li>
-<li class="toctree-l2"><a class="reference internal" href="testAppendix.html">Test Appendix</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#voyager-test-setup">Voyager Test Setup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#test-cases">Test Cases</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#test-case-1">Test Case : 1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#test-case-2">Test Case : 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#test-case-3">Test Case : 3</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#test-case-4">Test Case : 4</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#test-case-5">Test Case : 5</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#test-case-6">Test Case : 6</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#test-case-7">Test Case : 7</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#test-case-8">Test Case : 8</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#test-case-9">Test Case : 9</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#test-case-10">Test Case : 10</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#test-case-11">Test Case : 11</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#test-case-12">Test Case : 12</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#test-case-13">Test Case : 13</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#test-case-14">Test Case : 14</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#test-case-15">Test Case : 15</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#test-case-16">Test Case : 16</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#test-case-17">Test Case : 17</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#test-case-18">Test Case : 18</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#test-case-19">Test Case : 19</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#test-case-20">Test Case : 20</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#test-case-21">Test Case : 21</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#test-case-22">Test Case : 22</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#test-case-23">Test Case : 23</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#test-case-24">Test Case : 24</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#test-case-25">Test Case : 25</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#test-case-26">Test Case : 26</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#test-case-27">Test Case : 27</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#test-case-28">Test Case : 28</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#test-case-29">Test Case : 29</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#appendix">Appendix</a></li>
 </ul>
 </li>
 </ul>
@@ -137,12 +167,1149 @@
             
   <div class="section" id="test-plan">
 <h1>Test Plan<a class="headerlink" href="#test-plan" title="Permalink to this headline">¶</a></h1>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="testSetup.html">Test Setup</a></li>
-<li class="toctree-l1"><a class="reference internal" href="testCases.html">Test Cases</a></li>
-<li class="toctree-l1"><a class="reference internal" href="testAppendix.html">Test Appendix</a></li>
+<blockquote>
+<div><blockquote>
+<div><strong>Document Number: TBD</strong></div></blockquote>
+<p><strong>Document Revision History</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="23%" />
+<col width="32%" />
+<col width="23%" />
+<col width="23%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><strong>Version</strong></td>
+<td><strong>Comment</strong></td>
+<td><strong>Author</strong></td>
+<td><strong>Date</strong></td>
+</tr>
+<tr class="row-even"><td>v1.0</td>
+<td>Initial version</td>
+<td>SnapRoute</td>
+<td>10/22/2016</td>
+</tr>
+<tr class="row-odd"><td>v1.1</td>
+<td>Revised test cases</td>
+<td>SnapRoute</td>
+<td>10/25/2016</td>
+</tr>
+<tr class="row-even"><td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Document Approval History</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="23%" />
+<col width="32%" />
+<col width="23%" />
+<col width="23%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><strong>Version</strong></td>
+<td><strong>Comment</strong></td>
+<td><strong>Author</strong></td>
+<td><strong>Date</strong></td>
+</tr>
+<tr class="row-even"><td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<div class="section" id="voyager-test-setup">
+<h2>Voyager Test Setup<a class="headerlink" href="#voyager-test-setup" title="Permalink to this headline">¶</a></h2>
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<img alt="_images/VoyagerTestSetup.jpg" src="_images/VoyagerTestSetup.jpg" />
+<p><strong>Description</strong></p>
+<blockquote>
+<div><p>The diagram above depicts the Voyager testbed setup. The testbed utilizes a 40G switch as a traffic source.
+Voyager unit 1 and Voyager unit 2 have, AC400 module 0, NW interface id 0 connected to each other.</p>
+<p>Given the above topology, bidirectional traffic flows can be setup originating from port 49/50 on the traffic
+generator, switched by the Voyager units 1/2 and terminating at the traffic generator.</p>
+<p>The test setup also provides for running traffic loopback tests. Voyager unit 2 has network interfaces 0 and 1
+looped back on AC400 module 1.</p>
+<p>Additionally, Voyager unit 1 has only one AC400 module, while Voyager unit 2 is fully populated with 2 AC400
+modules. This provides for test coverage, ensuring full functionality is available even if only 1 AC400 module
+is present in the transponder system.</p>
+</div></blockquote>
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="test-cases">
+<h2>Test Cases<a class="headerlink" href="#test-cases" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="test-case-1">
+<h3>Test Case : 1<a class="headerlink" href="#test-case-1" title="Permalink to this headline">¶</a></h3>
+<p><strong>Validate that state and configuration can be queried for all Network Interfaces</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Test Execution Steps</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Read config/DWDMModuleNwIntfs</td>
+</tr>
+<tr class="row-odd"><td>Read state/DWDMModuleNwIntfs</td>
+</tr>
+</tbody>
+</table>
+<dl class="docutils">
+<dt><strong>Expected Results</strong></dt>
+<dd><ul class="first last simple">
+<li>Both reads above should list entries for NwIntfId 0 and NwIntfId 1</li>
 </ul>
+</dd>
+<dt><strong>Actual Results</strong></dt>
+<dd>PASS</dd>
+</dl>
+</div>
+<div class="section" id="test-case-2">
+<h3>Test Case : 2<a class="headerlink" href="#test-case-2" title="Permalink to this headline">¶</a></h3>
+<p><strong>Validate that inventory information of the AC400 optical module can be read</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Test Execution Steps</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Query state/DWDMModules and verify AC400 inventory</td>
+</tr>
+</tbody>
+</table>
+<dl class="docutils">
+<dt><strong>Expected Results</strong></dt>
+<dd><ul class="first last simple">
+<li>VendorName set to Acacia Comm Inc.</li>
+<li>VendorPartNum set to AC400-001-00H</li>
+<li>VendorDateCode set to 20160527</li>
+<li>ModuleHWVersion set to 48.49</li>
+</ul>
+</dd>
+<dt><strong>Actual Results</strong></dt>
+<dd>PASS</dd>
+</dl>
+</div>
+<div class="section" id="test-case-3">
+<h3>Test Case : 3<a class="headerlink" href="#test-case-3" title="Permalink to this headline">¶</a></h3>
+<p><strong>Validate that inventory information of the Tomahawk ASIC can be read</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Test Execution Steps</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Query state/AsicGlobals and verify ASIC inventory</td>
+</tr>
+</tbody>
+</table>
+<dl class="docutils">
+<dt><strong>Expected Results</strong></dt>
+<dd><ul class="first last simple">
+<li>VendorId set to 14e4</li>
+<li>PartNumber set to b960</li>
+<li>RevisionId set to 12</li>
+</ul>
+</dd>
+<dt><strong>Actual Results</strong></dt>
+<dd>PASS</dd>
+</dl>
+</div>
+<div class="section" id="test-case-4">
+<h3>Test Case : 4<a class="headerlink" href="#test-case-4" title="Permalink to this headline">¶</a></h3>
+<p><strong>Validate that the transponder can be configured to be in InServiceWire/InServiceOversub/InServiceRegen/PacketOptical/OutOfService modes</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Test Execution Steps</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Set transponder mode to be InServiceWire</td>
+</tr>
+<tr class="row-odd"><td>Query and verify current transponder mode is InServiceWire</td>
+</tr>
+<tr class="row-even"><td>Set transponder mode to be InServiceRegen</td>
+</tr>
+<tr class="row-odd"><td>Query and verify current transponder mode is InServiceRegen</td>
+</tr>
+<tr class="row-even"><td>Set transponder mode to be InServiceOverSub</td>
+</tr>
+<tr class="row-odd"><td>Query and verify current transponder mode is InServiceOverSub</td>
+</tr>
+<tr class="row-even"><td>Set transponder mode to be InServicePacketOptical</td>
+</tr>
+<tr class="row-odd"><td>Query and verify current transponder mode is InServicePacketOptical</td>
+</tr>
+<tr class="row-even"><td>Set transponder mode to be InServicePacketOptical</td>
+</tr>
+<tr class="row-odd"><td>Query and verify current transponder mode is InServicePacketOptical</td>
+</tr>
+<tr class="row-even"><td>Set transponder mode to be OutOfService</td>
+</tr>
+<tr class="row-odd"><td>Query and verify current transponder mode is OutOfService</td>
+</tr>
+</tbody>
+</table>
+<dl class="docutils">
+<dt><strong>Expected Results</strong></dt>
+<dd><ul class="first last simple">
+<li>Transponder mode in config/XponderGlobal must match value in state/XponderGlobal</li>
+</ul>
+</dd>
+<dt><strong>Actual Results</strong></dt>
+<dd>PASS</dd>
+</dl>
+</div>
+<div class="section" id="test-case-5">
+<h3>Test Case : 5<a class="headerlink" href="#test-case-5" title="Permalink to this headline">¶</a></h3>
+<p><strong>Validate asic configuration when transponder is in InServiceWire mode</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Test Execution Steps</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Set transponder mode to be InServiceWire</td>
+</tr>
+<tr class="row-odd"><td>Read vlan configuration</td>
+</tr>
+</tbody>
+</table>
+<dl class="docutils">
+<dt><strong>Expected Results</strong></dt>
+<dd><ul class="first last simple">
+<li>VlanId: 2, UntagIntfList: [&#8220;fpPort1&#8221;,&#8221;fpPort13&#8221;] should be present</li>
+<li>VlanId: 3, UntagIntfList: [&#8220;fpPort2&#8221;,&#8221;fpPort14&#8221;] should be present</li>
+<li>VlanId: 4, UntagIntfList: [&#8220;fpPort3&#8221;,&#8221;fpPort15&#8221;] should be present</li>
+<li>VlanId: 5, UntagIntfList: [&#8220;fpPort4&#8221;,&#8221;fpPort16&#8221;] should be present</li>
+<li>VlanId: 6, UntagIntfList: [&#8220;fpPort5&#8221;,&#8221;fpPort17&#8221;] should be present</li>
+<li>VlanId: 7, UntagIntfList: [&#8220;fpPort6&#8221;,&#8221;fpPort18&#8221;] should be present</li>
+<li>VlanId: 8, UntagIntfList: [&#8220;fpPort7&#8221;,&#8221;fpPort19&#8221;] should be present</li>
+<li>VlanId: 9, UntagIntfList: [&#8220;fpPort8&#8221;,&#8221;fpPort20&#8221;] should be present</li>
+</ul>
+</dd>
+<dt><strong>Actual Results</strong></dt>
+<dd>PASS</dd>
+</dl>
+</div>
+<div class="section" id="test-case-6">
+<h3>Test Case : 6<a class="headerlink" href="#test-case-6" title="Permalink to this headline">¶</a></h3>
+<p><strong>Validate asic configuration when transponder is in InServiceOverSub mode</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Test Execution Steps</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Set transponder mode to be InServiceOverSub</td>
+</tr>
+<tr class="row-odd"><td>Read vlan configuration</td>
+</tr>
+</tbody>
+</table>
+<dl class="docutils">
+<dt><strong>Expected Results</strong></dt>
+<dd><ul class="first last simple">
+<li>VlanId: 2, IntfList: [&#8220;fpPort13&#8221;], UntagIntfList: [&#8220;fpPort1&#8221;] should be present</li>
+<li>VlanId: 3, IntfList: [&#8220;fpPort14&#8221;], UntagIntfList: [&#8220;fpPort2&#8221;] should be present</li>
+<li>VlanId: 4, IntfList: [&#8220;fpPort15&#8221;], UntagIntfList: [&#8220;fpPort3&#8221;] should be present</li>
+<li>VlanId: 5, IntfList: [&#8220;fpPort16&#8221;], UntagIntfList: [&#8220;fpPort4&#8221;] should be present</li>
+<li>VlanId: 6, IntfList: [&#8220;fpPort17&#8221;], UntagIntfList: [&#8220;fpPort5&#8221;] should be present</li>
+<li>VlanId: 7, IntfList: [&#8220;fpPort18&#8221;], UntagIntfList: [&#8220;fpPort6&#8221;] should be present</li>
+<li>VlanId: 8, IntfList: [&#8220;fpPort19&#8221;], UntagIntfList: [&#8220;fpPort7&#8221;] should be present</li>
+<li>VlanId: 9, IntfList: [&#8220;fpPort20&#8221;], UntagIntfList: [&#8220;fpPort8&#8221;] should be present</li>
+<li>VlanId: 10, IntfList: [&#8220;fpPort15&#8221;], UntagIntfList: [&#8220;fpPort9&#8221;] should be present</li>
+<li>VlanId: 11, IntfList: [&#8220;fpPort16&#8221;], UntagIntfList: [&#8220;fpPort10&#8221;] should be present</li>
+<li>VlanId: 12, IntfList: [&#8220;fpPort17&#8221;], UntagIntfList: [&#8220;fpPort11&#8221;] should be present</li>
+<li>VlanId: 13, IntfList: [&#8220;fpPort18&#8221;], UntagIntfList: [&#8220;fpPort12&#8221;] should be present</li>
+</ul>
+</dd>
+<dt><strong>Actual Results</strong></dt>
+<dd>PASS</dd>
+</dl>
+</div>
+<div class="section" id="test-case-7">
+<h3>Test Case : 7<a class="headerlink" href="#test-case-7" title="Permalink to this headline">¶</a></h3>
+<p><strong>Validate AC400 automatic turn up</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Test Execution Steps</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Set AdminState to UP on DWDMModule</td>
+</tr>
+</tbody>
+</table>
+<dl class="docutils">
+<dt><strong>Expected Results</strong></dt>
+<dd><ul class="first last simple">
+<li>ModuleState in state/DWDMModules must be set to READY</li>
+</ul>
+</dd>
+<dt><strong>Actual Results</strong></dt>
+<dd>PASS</dd>
+</dl>
+</div>
+<div class="section" id="test-case-8">
+<h3>Test Case : 8<a class="headerlink" href="#test-case-8" title="Permalink to this headline">¶</a></h3>
+<p><strong>Validate AC400 automatic turn down</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Test Execution Steps</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Set AdminState to DOWN on DWDMModule</td>
+</tr>
+</tbody>
+</table>
+<dl class="docutils">
+<dt><strong>Expected Results</strong></dt>
+<dd><ul class="first last simple">
+<li>ModuleState in state/DWDMModules must be set to LOW POWER</li>
+</ul>
+</dd>
+<dt><strong>Actual Results</strong></dt>
+<dd>PASS</dd>
+</dl>
+</div>
+<div class="section" id="test-case-9">
+<h3>Test Case : 9<a class="headerlink" href="#test-case-9" title="Permalink to this headline">¶</a></h3>
+<p><strong>Validate asic configuration when transponder is in OutOfService mode</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Test Execution Steps</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Set transponder mode to be OutOfService</td>
+</tr>
+<tr class="row-odd"><td>Read vlan configuration</td>
+</tr>
+</tbody>
+</table>
+<dl class="docutils">
+<dt><strong>Expected Results</strong></dt>
+<dd><ul class="first last simple">
+<li>All applied vlan configuration from InServiceOverSub mode should be removed</li>
+</ul>
+</dd>
+<dt><strong>Actual Results</strong></dt>
+<dd>PASS</dd>
+</dl>
+</div>
+<div class="section" id="test-case-10">
+<h3>Test Case : 10<a class="headerlink" href="#test-case-10" title="Permalink to this headline">¶</a></h3>
+<p><strong>Validate Xponder description can be set</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Test Execution Steps</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Set xponder description to &#8216;Voyager-233&#8217;</td>
+</tr>
+<tr class="row-odd"><td>Validate xponder description is set correctly</td>
+</tr>
+</tbody>
+</table>
+<dl class="docutils">
+<dt><strong>Expected Results</strong></dt>
+<dd><ul class="first last simple">
+<li>XponderDescription in state/XponderGlobals must be set to &#8216;Voyager-233&#8217;</li>
+</ul>
+</dd>
+<dt><strong>Actual Results</strong></dt>
+<dd>PASS</dd>
+</dl>
+</div>
+<div class="section" id="test-case-11">
+<h3>Test Case : 11<a class="headerlink" href="#test-case-11" title="Permalink to this headline">¶</a></h3>
+<p><strong>Validate Tx power can be set on AC400 network interfaces</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Test Execution Steps</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Set Tx power value on NwIntf 0</td>
+</tr>
+<tr class="row-odd"><td>Read Rx power value on NwIntf 1</td>
+</tr>
+<tr class="row-even"><td>Set Tx power value on NwIntf 1</td>
+</tr>
+<tr class="row-odd"><td>Read Rx power value on Nw intf 0</td>
+</tr>
+</tbody>
+</table>
+<dl class="docutils">
+<dt><strong>Expected Results</strong></dt>
+<dd><ul class="first last simple">
+<li>RxPower read in state/DWDMModuleNwIntf should be within 20% deviation of TxPower</li>
+</ul>
+</dd>
+<dt><strong>Actual Results</strong></dt>
+<dd>PASS</dd>
+</dl>
+</div>
+<div class="section" id="test-case-12">
+<h3>Test Case : 12<a class="headerlink" href="#test-case-12" title="Permalink to this headline">¶</a></h3>
+<p><strong>Validate Tx channel number can be set on AC400 network interfaces</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Test Execution Steps</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Read current Tx Channel number on both network interfaces</td>
+</tr>
+<tr class="row-odd"><td>Read RxPower and CurrentBER value on NwIntf 1</td>
+</tr>
+<tr class="row-even"><td>Set Tx Channel number to be 48 on NwIntf 0</td>
+</tr>
+<tr class="row-odd"><td>Read RxPower and CurrentBER value on NwIntf 1</td>
+</tr>
+</tbody>
+</table>
+<dl class="docutils">
+<dt><strong>Expected Results</strong></dt>
+<dd><ul class="first last simple">
+<li>Initially Tx channels match on both NwIntf, hence CurrentBER will read &gt; 0</li>
+<li>Setting NwIntf 0 to channel 48, causes loss of sync, resulting in CurrentBER &lt; 0</li>
+</ul>
+</dd>
+<dt><strong>Actual Results</strong></dt>
+<dd>PASS</dd>
+</dl>
+</div>
+<div class="section" id="test-case-13">
+<h3>Test Case : 13<a class="headerlink" href="#test-case-13" title="Permalink to this headline">¶</a></h3>
+<p><strong>Validate modulation format can be modified on AC400 network interfaces</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Test Execution Steps</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Read current modulation format on both network interfaces</td>
+</tr>
+<tr class="row-odd"><td>Read RxPower and CurrentBER value on NwIntf 1</td>
+</tr>
+<tr class="row-even"><td>Set modulation format on NwIntf 0 to be QPSK</td>
+</tr>
+<tr class="row-odd"><td>Read RxPower and CurrentBER value on NwIntf 1</td>
+</tr>
+</tbody>
+</table>
+<dl class="docutils">
+<dt><strong>Expected Results</strong></dt>
+<dd><ul class="first last simple">
+<li>Initial modulation formats on both NWIntf should be 16QAM, hence CurrentBER will read &gt; 0</li>
+<li>Setting NwIntf 0 to QPSK results in loss of sync, hence CurrentBER will read &lt; 0</li>
+</ul>
+</dd>
+<dt><strong>Actual Results</strong></dt>
+<dd>PASS</dd>
+</dl>
+</div>
+<div class="section" id="test-case-14">
+<h3>Test Case : 14<a class="headerlink" href="#test-case-14" title="Permalink to this headline">¶</a></h3>
+<p><strong>Validate FEC mode can be modified on AC400 network interfaces</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Test Execution Steps</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Read current FEC mode on both network interfaces</td>
+</tr>
+<tr class="row-odd"><td>Read RxPower and CurrentBER value on NwIntf 1</td>
+</tr>
+<tr class="row-even"><td>Set FEC mode on NwIntf 0 to be 15%SDFEC</td>
+</tr>
+<tr class="row-odd"><td>Read RxPower and CurrentBER value on NwIntf 1</td>
+</tr>
+</tbody>
+</table>
+<dl class="docutils">
+<dt><strong>Expected Results</strong></dt>
+<dd><ul class="first last simple">
+<li>Initial FEC mode on both NwIntf should be 25%OvrHeadSDFEC, hence CurrentBER will read &gt; 0</li>
+<li>Setting NwIntf 0 to 15%SDFEC results in loss of sync, hence CurrentBER will read &lt; 0</li>
+</ul>
+</dd>
+<dt><strong>Actual Results</strong></dt>
+<dd>PASS</dd>
+</dl>
+</div>
+<div class="section" id="test-case-15">
+<h3>Test Case : 15<a class="headerlink" href="#test-case-15" title="Permalink to this headline">¶</a></h3>
+<p><strong>Validate that differential encoding setting can be modified on AC400 network interfaces</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Test Execution Steps</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Read current DiffEncoding setting on both network interfaces</td>
+</tr>
+<tr class="row-odd"><td>Read RxPower and CurrentBER value on NwIntf 1</td>
+</tr>
+<tr class="row-even"><td>Set DiffEncoding to True on NwIntf 0</td>
+</tr>
+<tr class="row-odd"><td>Read RxPower and CurrentBER value on NwIntf 1</td>
+</tr>
+</tbody>
+</table>
+<dl class="docutils">
+<dt><strong>Expected Results</strong></dt>
+<dd><ul class="first last simple">
+<li>Initial DiffEncoding setting on both NWIntf should be False, hence CurrentBER will read &gt; 0</li>
+<li>Setting DiffEncoding to True on NwIntf 0 results in loss of sync, hence CurrentBER will read &lt; 0</li>
+</ul>
+</dd>
+<dt><strong>Actual Results</strong></dt>
+<dd>PASS</dd>
+</dl>
+</div>
+<div class="section" id="test-case-16">
+<h3>Test Case : 16<a class="headerlink" href="#test-case-16" title="Permalink to this headline">¶</a></h3>
+<p><strong>Validate that PM data can be read for BER on AC400 network interfaces</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Test Execution Steps</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Read CurrentBER value from state/DWDMModuleNwintfs</td>
+</tr>
+<tr class="row-odd"><td>Read MinBEROverPMInterval value from state/DWDMModuleNwintfs</td>
+</tr>
+<tr class="row-even"><td>Read AvgBEROverPMInterval value from state/DWDMModuleNwintfs</td>
+</tr>
+<tr class="row-odd"><td>Read MaxBEROverPMInterval value from state/DWDMModuleNwintfs</td>
+</tr>
+</tbody>
+</table>
+<dl class="docutils">
+<dt><strong>Expected Results</strong></dt>
+<dd><ul class="first last simple">
+<li>BER values read at each step must read &gt; 0</li>
+</ul>
+</dd>
+<dt><strong>Actual Results</strong></dt>
+<dd>PASS</dd>
+</dl>
+</div>
+<div class="section" id="test-case-17">
+<h3>Test Case : 17<a class="headerlink" href="#test-case-17" title="Permalink to this headline">¶</a></h3>
+<p><strong>Validate that state and configuration can be queried for all Client Interfaces</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Test Execution Steps</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Read config/DWDMModuleClntIntfs</td>
+</tr>
+<tr class="row-odd"><td>Read state/DWDMModuleClntIntfs</td>
+</tr>
+</tbody>
+</table>
+<dl class="docutils">
+<dt><strong>Expected Results</strong></dt>
+<dd><ul class="first last simple">
+<li>Both reads above should list entries for ClintIntfId 0,1,2 and 3</li>
+</ul>
+</dd>
+<dt><strong>Actual Results</strong></dt>
+<dd>PASS</dd>
+</dl>
+</div>
+<div class="section" id="test-case-18">
+<h3>Test Case : 18<a class="headerlink" href="#test-case-18" title="Permalink to this headline">¶</a></h3>
+<p><strong>Validate host electrical parameters can be configured for each client interface</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Test Execution Steps</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>For each client interface read HostTxEqLfCtle, HostTxEqCtle, HostTxEqDfe</td>
+</tr>
+<tr class="row-odd"><td>For each client interface set HostTxEqLfCtle = 3, HostTxEqCtle = 4, HostTxEqDfe = 5</td>
+</tr>
+<tr class="row-even"><td>For each client interface read HostTxEqLfCtle, HostTxEqCtle, HostTxEqDfe</td>
+</tr>
+</tbody>
+</table>
+<dl class="docutils">
+<dt><strong>Expected Results</strong></dt>
+<dd><ul class="first last simple">
+<li>Initial values read for HostTxEqLfCtle, HostTxEqCtle, HostTxEqDfe are all 0</li>
+<li>Subsequent read after write yields HostTxEqLfCtle = 3, HostTxEqCtle = 4, HostTxEqDfe = 5</li>
+</ul>
+</dd>
+<dt><strong>Actual Results</strong></dt>
+<dd>PASS</dd>
+</dl>
+</div>
+<div class="section" id="test-case-19">
+<h3>Test Case : 19<a class="headerlink" href="#test-case-19" title="Permalink to this headline">¶</a></h3>
+<p><strong>Validate switching ASIC related events are generated in the Voyager system</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Test Execution Steps</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Configure the transponder to be in InServiceWire mode</td>
+</tr>
+<tr class="row-odd"><td>Set AdminState to UP on fpPort1 on Voyager unit 2</td>
+</tr>
+<tr class="row-even"><td>Set AdminState to UP on fpPort49 on the traffic generator</td>
+</tr>
+<tr class="row-odd"><td>Read all events logged by the Voyager system</td>
+</tr>
+</tbody>
+</table>
+<dl class="docutils">
+<dt><strong>Expected Results</strong></dt>
+<dd><ul class="first last simple">
+<li>PortOperStateUp event should be generated for fpPort1</li>
+</ul>
+</dd>
+<dt><strong>Actual Results</strong></dt>
+<dd>PASS</dd>
+</dl>
+</div>
+<div class="section" id="test-case-20">
+<h3>Test Case : 20<a class="headerlink" href="#test-case-20" title="Permalink to this headline">¶</a></h3>
+<p><strong>Validate AC400 related alarm resolution in the Voyager system</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Test Execution Steps</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Configure the transponder to be in InServiceWire mode</td>
+</tr>
+<tr class="row-odd"><td>Set AdminState to UP for AC400 module 1 on Voyager unit 2</td>
+</tr>
+<tr class="row-even"><td>Set TxPower to -30 dBm for ModuleId 1 NwIntfId 0 on Voyager unit 2</td>
+</tr>
+<tr class="row-odd"><td>Set TxPower to -1 dBm for ModuleId 1 NwIntfId 0 on Voyager unit 2</td>
+</tr>
+<tr class="row-even"><td>Read all alarms logged by the Voyager system</td>
+</tr>
+</tbody>
+</table>
+<dl class="docutils">
+<dt><strong>Expected Results</strong></dt>
+<dd><ul class="first last simple">
+<li>RxLOS alarm should be generated for ModuleId 1, NwIntfId 1, and the ResolutionTime/ResolutionReason should be populated</li>
+</ul>
+</dd>
+<dt><strong>Actual Results</strong></dt>
+<dd>PASS</dd>
+</dl>
+</div>
+<div class="section" id="test-case-21">
+<h3>Test Case : 21<a class="headerlink" href="#test-case-21" title="Permalink to this headline">¶</a></h3>
+<p><strong>Validate AC400 related events are generated in the Voyager system</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Test Execution Steps</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Configure the transponder to be in InServiceWire mode</td>
+</tr>
+<tr class="row-odd"><td>Set AdminState to UP for AC400 module 1 on Voyager unit 2</td>
+</tr>
+<tr class="row-even"><td>Set TxPower to -30 dBm for ModuleId 1 NwIntfId 0 on Voyager unit 2</td>
+</tr>
+<tr class="row-odd"><td>Read all events logged by the Voyager system</td>
+</tr>
+</tbody>
+</table>
+<dl class="docutils">
+<dt><strong>Expected Results</strong></dt>
+<dd><ul class="first last simple">
+<li>RxLOS event should be generated for ModuleId 1, NwIntfId 1</li>
+</ul>
+</dd>
+<dt><strong>Actual Results</strong></dt>
+<dd>PASS</dd>
+</dl>
+</div>
+<div class="section" id="test-case-22">
+<h3>Test Case : 22<a class="headerlink" href="#test-case-22" title="Permalink to this headline">¶</a></h3>
+<p><strong>Validate switching ASIC related faults are generated in the Voyager system</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Test Execution Steps</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Configure the transponder to be in InServiceWire mode</td>
+</tr>
+<tr class="row-odd"><td>Set AdminState to UP on fpPort1 on Voyager unit 2</td>
+</tr>
+<tr class="row-even"><td>Set AdminState to UP on fpPort49 on the traffic generator</td>
+</tr>
+<tr class="row-odd"><td>Set AdminState to DOWN on fpPort49 on the traffic generator to bring the link down</td>
+</tr>
+<tr class="row-even"><td>Read all faults logged by the Voyager system</td>
+</tr>
+</tbody>
+</table>
+<dl class="docutils">
+<dt><strong>Expected Results</strong></dt>
+<dd><ul class="first last simple">
+<li>PortOperStateDown fault should be generated for fpPort1</li>
+</ul>
+</dd>
+<dt><strong>Actual Results</strong></dt>
+<dd>PASS</dd>
+</dl>
+</div>
+<div class="section" id="test-case-23">
+<h3>Test Case : 23<a class="headerlink" href="#test-case-23" title="Permalink to this headline">¶</a></h3>
+<p><strong>Validate AC400 related faults are generated in the Voyager system</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Test Execution Steps</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Configure the transponder to be in InServiceWire mode</td>
+</tr>
+<tr class="row-odd"><td>Set AdminState to UP for AC400 module 1 on Voyager unit 2</td>
+</tr>
+<tr class="row-even"><td>Set TxPower to -30 dBm for ModuleId 1 NwIntfId 0 on Voyager unit 2</td>
+</tr>
+<tr class="row-odd"><td>Read all faults logged by the Voyager system</td>
+</tr>
+</tbody>
+</table>
+<dl class="docutils">
+<dt><strong>Expected Results</strong></dt>
+<dd><ul class="first last simple">
+<li>RxLOS fault should be generated for ModuleId 1, NwIntfId 1</li>
+</ul>
+</dd>
+<dt><strong>Actual Results</strong></dt>
+<dd>PASS</dd>
+</dl>
+</div>
+<div class="section" id="test-case-24">
+<h3>Test Case : 24<a class="headerlink" href="#test-case-24" title="Permalink to this headline">¶</a></h3>
+<p><strong>Validate switching ASIC related alarms are generated in the Voyager system</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Test Execution Steps</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Configure the transponder to be in InServiceWire mode</td>
+</tr>
+<tr class="row-odd"><td>Set AdminState to UP on fpPort1 on Voyager unit 2</td>
+</tr>
+<tr class="row-even"><td>Set AdminState to UP on fpPort49 on the traffic generator</td>
+</tr>
+<tr class="row-odd"><td>Set AdminState to DOWN on fpPort49 on the traffic generator to bring the link down</td>
+</tr>
+<tr class="row-even"><td>Read all alarms logged by the Voyager system</td>
+</tr>
+</tbody>
+</table>
+<dl class="docutils">
+<dt><strong>Expected Results</strong></dt>
+<dd><ul class="first last simple">
+<li>PortOperStateDown alarm should be generated for fpPort1</li>
+</ul>
+</dd>
+<dt><strong>Actual Results</strong></dt>
+<dd>PASS</dd>
+</dl>
+</div>
+<div class="section" id="test-case-25">
+<h3>Test Case : 25<a class="headerlink" href="#test-case-25" title="Permalink to this headline">¶</a></h3>
+<p><strong>Validate AC400 related alarms are generated in the Voyager system</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Test Execution Steps</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Configure the transponder to be in InServiceWire mode</td>
+</tr>
+<tr class="row-odd"><td>Set AdminState to UP for AC400 module 1 on Voyager unit 2</td>
+</tr>
+<tr class="row-even"><td>Set TxPower to -30 dBm for ModuleId 1 NwIntfId 0 on Voyager unit 2</td>
+</tr>
+<tr class="row-odd"><td>Read all alarms logged by the Voyager system</td>
+</tr>
+</tbody>
+</table>
+<dl class="docutils">
+<dt><strong>Expected Results</strong></dt>
+<dd><ul class="first last simple">
+<li>RxLOS alarm should be generated for ModuleId 1, NwIntfId 1</li>
+</ul>
+</dd>
+<dt><strong>Actual Results</strong></dt>
+<dd>PASS</dd>
+</dl>
+</div>
+<div class="section" id="test-case-26">
+<h3>Test Case : 26<a class="headerlink" href="#test-case-26" title="Permalink to this headline">¶</a></h3>
+<p><strong>Validate switching ASIC related fault resolution in the Voyager system</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Test Execution Steps</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Configure the transponder to be in InServiceWire mode</td>
+</tr>
+<tr class="row-odd"><td>Set AdminState to UP on fpPort1 on Voyager unit 2</td>
+</tr>
+<tr class="row-even"><td>Set AdminState to UP on fpPort49 on the traffic generator</td>
+</tr>
+<tr class="row-odd"><td>Set AdminState to DOWN on fpPort49 on the traffic generator to bring the link down</td>
+</tr>
+<tr class="row-even"><td>Set AdminState to UP on fpPort49 on the traffic generator to bring the link down</td>
+</tr>
+<tr class="row-odd"><td>Read all faults logged by the Voyager system</td>
+</tr>
+</tbody>
+</table>
+<dl class="docutils">
+<dt><strong>Expected Results</strong></dt>
+<dd><ul class="first last simple">
+<li>PortOperStateDown fault should be generated for fpPort1, and the ResolutionTime/ResolutionReason should be populated</li>
+</ul>
+</dd>
+<dt><strong>Actual Results</strong></dt>
+<dd>PASS</dd>
+</dl>
+</div>
+<div class="section" id="test-case-27">
+<h3>Test Case : 27<a class="headerlink" href="#test-case-27" title="Permalink to this headline">¶</a></h3>
+<p><strong>Validate AC400 related fault resolution in the Voyager system</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Test Execution Steps</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Configure the transponder to be in InServiceWire mode</td>
+</tr>
+<tr class="row-odd"><td>Set AdminState to UP for AC400 module 1 on Voyager unit 2</td>
+</tr>
+<tr class="row-even"><td>Set TxPower to -30 dBm for ModuleId 1 NwIntfId 0 on Voyager unit 2</td>
+</tr>
+<tr class="row-odd"><td>Set TxPower to -1 dBm for ModuleId 1 NwIntfId 0 on Voyager unit 2</td>
+</tr>
+<tr class="row-even"><td>Read all faults logged by the Voyager system</td>
+</tr>
+</tbody>
+</table>
+<dl class="docutils">
+<dt><strong>Expected Results</strong></dt>
+<dd><ul class="first last simple">
+<li>RxLOS fault should be generated for ModuleId 1, NwIntfId 1, and the ResolutionTime/ResolutionReason should be populated</li>
+</ul>
+</dd>
+<dt><strong>Actual Results</strong></dt>
+<dd>PASS</dd>
+</dl>
+</div>
+<div class="section" id="test-case-28">
+<h3>Test Case : 28<a class="headerlink" href="#test-case-28" title="Permalink to this headline">¶</a></h3>
+<p><strong>Validate switching ASIC related alarm resolution in the Voyager system</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Test Execution Steps</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Configure the transponder to be in InServiceWire mode</td>
+</tr>
+<tr class="row-odd"><td>Set AdminState to UP on fpPort1 on Voyager unit 2</td>
+</tr>
+<tr class="row-even"><td>Set AdminState to UP on fpPort49 on the traffic generator</td>
+</tr>
+<tr class="row-odd"><td>Set AdminState to DOWN on fpPort49 on the traffic generator to bring the link down</td>
+</tr>
+<tr class="row-even"><td>Set AdminState to UP on fpPort49 on the traffic generator to bring the link down</td>
+</tr>
+<tr class="row-odd"><td>Read all alarms logged by the Voyager system</td>
+</tr>
+</tbody>
+</table>
+<dl class="docutils">
+<dt><strong>Expected Results</strong></dt>
+<dd><ul class="first last simple">
+<li>PortOperStateDown alarm should be generated for fpPort1, and the ResolutionTime/ResolutionReason should be populated</li>
+</ul>
+</dd>
+<dt><strong>Actual Results</strong></dt>
+<dd>PASS</dd>
+</dl>
+</div>
+<div class="section" id="test-case-29">
+<h3>Test Case : 29<a class="headerlink" href="#test-case-29" title="Permalink to this headline">¶</a></h3>
+<p><strong>Validate end to end data path connectivity</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Test Execution Steps</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Configure Voyager unit 1 to be in InServiceWire mode</td>
+</tr>
+<tr class="row-odd"><td>Set AdminState to UP for AC400 module 0 on Voyager unit 1</td>
+</tr>
+<tr class="row-even"><td>Set AdminState to UP, and Speed to 40000, on fpPort1 on Voyager unit 1</td>
+</tr>
+<tr class="row-odd"><td>Set AdminState to UP, and Speed to 40000,  on fpPort49 on the traffic generator</td>
+</tr>
+<tr class="row-even"><td>Configure Voyager unit 2 to be in InServiceWire mode</td>
+</tr>
+<tr class="row-odd"><td>Set AdminState to UP for AC400 module 0 on Voyager unit 2</td>
+</tr>
+<tr class="row-even"><td>Set AdminState to UP, and Speed to 40000 on fpPort1 on Voyager unit 2</td>
+</tr>
+<tr class="row-odd"><td>Set AdminState to UP, and Speed to 40000 on fpPort50 on the traffic generator</td>
+</tr>
+<tr class="row-even"><td>Transmit 10,000 L2 frames egressing fpPort49 on the traffic generator</td>
+</tr>
+<tr class="row-odd"><td>Transmit 10,000 L2 frames egressing fpPort50 on the traffic generator</td>
+</tr>
+</tbody>
+</table>
+<dl class="docutils">
+<dt><strong>Expected Results</strong></dt>
+<dd><ul class="first last simple">
+<li>10,000 L2 frames must ingress fpPort49 on the traffic generator</li>
+<li>10,000 L2 frames must ingress fpPort50 on the traffic generator</li>
+</ul>
+</dd>
+<dt><strong>Actual Results</strong></dt>
+<dd>PASS</dd>
+</dl>
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+</div>
+</div>
+<div class="section" id="appendix">
+<h2>Appendix<a class="headerlink" href="#appendix" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p><strong>Test plan execution summary</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="23%" />
+<col width="32%" />
+<col width="23%" />
+<col width="23%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><strong>Version</strong></td>
+<td><strong>Comment</strong></td>
+<td><strong>Author</strong></td>
+<td><strong>Date</strong></td>
+</tr>
+<tr class="row-even"><td>1.0.0.168</td>
+<td>All tests passed</td>
+<td>Snaproute</td>
+<td>10/25/2016</td>
+</tr>
+<tr class="row-odd"><td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
 </div>
 </div>
 
@@ -153,10 +1320,8 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="testSetup.html" class="btn btn-neutral float-right" title="Voyager Test Setup" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
       
-      
-        <a href="apis.html" class="btn btn-neutral" title="FlexSwitch API Documentation" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="design.html" class="btn btn-neutral" title="FlexSwitch for Voyager Software design" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
