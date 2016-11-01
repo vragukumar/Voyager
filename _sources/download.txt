@@ -6,6 +6,6 @@
 FlexSwitch for Voyager download instructions
 ============================================
     
-    **A tarball of FlexSwitch source code for Voyager is available at** : https://github.com/SnapRoute/Voyager/tree/master/code/
+    **A tarball of FlexSwitch source code for Voyager is available at** : `Source code <https://github.com/SnapRoute/Voyager/tree/master/code/>`_
 
-    **A tarball of precompiled FlexSwitch binaries for Voyager is available at** : https://github.com/SnapRoute/Voyager/tree/master/bin/
+    **A tarball of precompiled FlexSwitch binaries for Voyager is available at** : `FlexSwitch binaries <https://github.com/SnapRoute/Voyager/tree/master/bin/>`_

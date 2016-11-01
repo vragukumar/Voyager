@@ -5,4 +5,4 @@
 
 FlexSwitch API Documentation
 ============================
-    **FlexSwitch API documentation is available at** : https://opensnaproute.github.io/apidocs/
+    **FlexSwitch API documentation is available at** : `FlexSwitch API Documentation <https://opensnaproute.github.io/apidocs/>`_
