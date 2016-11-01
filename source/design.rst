@@ -6,4 +6,4 @@
 FlexSwitch for Voyager Software design 
 ======================================
     
-    **A detailed design document of FlexSwitch as applicable to the Voyager platform is available here** : https://github.com/snaproute/Voyager/doc/master/tree/
+    **A detailed design document of FlexSwitch as applicable to the Voyager platform is available here** : https://github.com/SnapRoute/Voyager/blob/master/doc/VoyagerSoftwareDesign.pdf 
