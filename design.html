@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>FlexSwitch API Documentation &mdash; Voyager 1.0.1 documentation</title>
+  <title>FlexSwitch for Voyager Software design &mdash; Voyager 1.0.1 documentation</title>
   
 
   
@@ -31,8 +31,8 @@
 
   
     <link rel="top" title="Voyager 1.0.1 documentation" href="index.html"/>
-        <link rel="next" title="FlexSwitch API Documentation" href="apis.html"/>
-        <link rel="prev" title="FlexSwitch API Documentation" href="download.html"/> 
+        <link rel="next" title="Test Plan" href="testPlan.html"/>
+        <link rel="prev" title="FlexSwitch for Voyager download instructions" href="download.html"/> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -83,16 +83,8 @@
             
                 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="download.html">Download Instructions</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Software Design</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#who-should-read-this-document">Who should read this document</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#what-is-rest-api-any-way">What is REST API any way</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#flexswitch-api-model">FlexSwitch API Model</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#flexswitch-objects">FlexSwitch Objects</a><ul class="simple">
-</ul>
-</li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="apis.html">API Reference Document</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Software Design</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://opensnaproute.github.io/apidocs">API Reference Document</a></li>
 <li class="toctree-l1"><a class="reference internal" href="testPlan.html">Test Plan</a></li>
 </ul>
 
@@ -124,7 +116,7 @@
   <ul class="wy-breadcrumbs">
     <li><a href="index.html">Docs</a> &raquo;</li>
       
-    <li>FlexSwitch API Documentation</li>
+    <li>FlexSwitch for Voyager Software design</li>
       <li class="wy-breadcrumbs-aside">
         
           
@@ -138,81 +130,10 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="flexswitch-api-documentation">
-<h1>FlexSwitch API Documentation<a class="headerlink" href="#flexswitch-api-documentation" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="flexswitch-for-voyager-software-design">
+<h1>FlexSwitch for Voyager Software design<a class="headerlink" href="#flexswitch-for-voyager-software-design" title="Permalink to this headline">¶</a></h1>
 <blockquote>
-<div><dl class="docutils">
-<dt><strong>FlexSwitch offers the following :</strong></dt>
-<dd><ul class="first last simple">
-<li>Fully programmable network protocol stack</li>
-<li>RESTful APIs at every level</li>
-<li>Highly customizable behavior</li>
-<li>Works with select Optical Modules</li>
-<li>Portable architecture to work on hardware from variety of vendors like Acton, Celestica, Alpha Networks, Facebook Wedge</li>
-<li>Highly instrumented to help the Network operators troubleshoot issues</li>
-</ul>
-</dd>
-</dl>
-</div></blockquote>
-<div class="section" id="who-should-read-this-document">
-<h2>Who should read this document<a class="headerlink" href="#who-should-read-this-document" title="Permalink to this headline">¶</a></h2>
-<blockquote>
-<div><p>This document is primarily intended for developers working in the areas like Network Management Systems (NMS), Element Management Systems (EMS). This document would also help any developer interested in developing creative applications.</p>
-<p>This document attempts to introduce you to <strong>REST API</strong> (REpresentational State Transfer) semantics in section <a class="reference internal" href="download.html#rest-primer"><span class="std std-ref">What is REST API any way</span></a>. Feel free to skip this secion if you are a REST ninja.</p>
-<p>FlexSwitch software model for REST APIs is described in <a class="reference internal" href="download.html#flex-api-model"><span class="std std-ref">FlexSwitch API Model</span></a>. FlexSwitch objects a.k.a REST endpoints are described in  <a class="reference internal" href="download.html#flex-object-model"><span class="std std-ref">FlexSwitch Objects</span></a>.</p>
-</div></blockquote>
-</div>
-<div class="section" id="what-is-rest-api-any-way">
-<span id="rest-primer"></span><h2>What is REST API any way<a class="headerlink" href="#what-is-rest-api-any-way" title="Permalink to this headline">¶</a></h2>
-<blockquote>
-<div>REST is a simple way to organize interactions between independent systems. REST model is not limited to a particular transportation, however HTTP/HTTPS is the most used form of transfer protocol for REST based systems.
-REST design constitutes of resources (objects) and verbs (operations). The resources are generally designed to be independent. All resources support similar operations. Common operations supported by FlexSwitch software and their purpose is listed below</div></blockquote>
-<table border="1" class="docutils">
-<colgroup>
-<col width="34%" />
-<col width="17%" />
-<col width="49%" />
-</colgroup>
-<thead valign="bottom">
-<tr class="row-odd"><th class="head">Operation</th>
-<th class="head" colspan="2">Purpose</th>
-</tr>
-</thead>
-<tbody valign="top">
-<tr class="row-even"><td>GET</td>
-<td colspan="2">Retrieve a object</td>
-</tr>
-<tr class="row-odd"><td>POST</td>
-<td colspan="2">Create an object</td>
-</tr>
-<tr class="row-even"><td>PATCH</td>
-<td colspan="2">Update an existing object</td>
-</tr>
-<tr class="row-odd"><td>DELETE</td>
-<td colspan="2">Delete an existing object</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="section" id="flexswitch-api-model">
-<span id="flex-api-model"></span><h2>FlexSwitch API Model<a class="headerlink" href="#flexswitch-api-model" title="Permalink to this headline">¶</a></h2>
-<blockquote>
-<div><p>FlexSwitch partitions objects into config, state objects. These APIs allow users to configure or retrieve various objects.
-All the config APIs are identified by the URL <a class="reference external" href="http://ipaddress/public">http://ipaddress/public</a>/v&lt;Version#&gt;/config/&lt;object&gt;.</p>
-<p>Similarly all the state objects are identified by the URL <a class="reference external" href="http://ipaddress/public">http://ipaddress/public</a>/v&lt;Version#&gt;/state/&lt;object&gt;.</p>
-<p>In addition to these APIs FlexSwitch also supports retrieving of all autonomus events happened in the system with a URL at <a class="reference external" href="http://ipaddress/public/v1/events/Events/">http://ipaddress/public/v1/events/Events/</a>.</p>
-<p>Similarly FlexSwitch provides Faults and Alarms.  The following sections describe complete object list in detail</p>
-</div></blockquote>
-</div>
-<div class="section" id="flexswitch-objects">
-<span id="flex-object-model"></span><h2>FlexSwitch Objects<a class="headerlink" href="#flexswitch-objects" title="Permalink to this headline">¶</a></h2>
-<blockquote>
-<div>FlexSwitch Objects are classified into config and state objects. Below link contains the list of model objects provided by FlexSwitch.</div></blockquote>
-<div class="toctree-wrapper compound">
-<ul class="simple">
-</ul>
-</div>
-</div>
+<div><strong>A detailed design document of FlexSwitch as applicable to the Voyager platform is available here</strong> : <a class="reference external" href="https://github.com/snaproute/Voyager/doc/master/tree/">https://github.com/snaproute/Voyager/doc/master/tree/</a></div></blockquote>
 </div>
 
 
@@ -222,10 +143,10 @@ All the config APIs are identified by the URL <a class="reference external" href
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="apis.html" class="btn btn-neutral float-right" title="FlexSwitch API Documentation" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="testPlan.html" class="btn btn-neutral float-right" title="Test Plan" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="download.html" class="btn btn-neutral" title="FlexSwitch API Documentation" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="download.html" class="btn btn-neutral" title="FlexSwitch for Voyager download instructions" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
